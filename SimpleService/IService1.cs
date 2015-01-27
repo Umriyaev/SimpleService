@@ -30,7 +30,9 @@ namespace SimpleService
     [DataContract]
     public class Student
     {
+        [DataMember]
         public string Name { get; set; }
+        [DataMember]
         public string Number { get; set; }
     }
 
